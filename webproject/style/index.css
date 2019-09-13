@@ -1,0 +1,54 @@
+.home-main-section {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.home-main-section {
+  display: flex;
+  flex-direction: column;
+}
+.home-pge-c1 {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(253, 187, 6, 0.774);
+  top: 10vw;
+  left: 4vw;
+  z-index: -1;
+}
+.home-pge-c2 {
+  position: absolute;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 30vw;
+  height: 30vw;
+  /* background-color: rgba(255, 0, 255, 0.527); */
+  bottom: -5vw;
+  right: 40vw;
+  z-index: -1;
+}
+
+.home-pge-c2::before {
+  contain: " ";
+  position: absolute;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 255, 0.527);
+}
+
+.home-pge-c3 {
+  position: absolute;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 255, 0.527);
+  /* overflow: hidden; */
+  top: -80px;
+  right: 30px;
+  z-index: -1;
+}
